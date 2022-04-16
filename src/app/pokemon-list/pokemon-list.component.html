@@ -1,0 +1,7 @@
+
+  <div class="list-group" *ngFor="let pokemon of pokemonList">
+    <a
+      class="list-group-item list-group-item-action"
+      (click)="changePokemon(pokemon)"
+      [class.active]="currentPokemon.name === pokemon.name">{{ pokemon.name }}</a>
+  </div>

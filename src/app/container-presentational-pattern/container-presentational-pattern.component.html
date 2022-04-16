@@ -1,0 +1,9 @@
+<app-pokemon-list
+  [pokemonList]="pokemonList"
+  (onCurrentPokemonChange)="getPokemonDetail($event.name)"
+  ></app-pokemon-list>
+
+<app-pokemon-detail
+[pokemonDetail]="pokemonDetail"
+>
+</app-pokemon-detail>

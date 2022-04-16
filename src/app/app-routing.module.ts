@@ -1,3 +1,4 @@
+import { TaxFormComponent } from './tax-form/tax-form.component';
 import { ContainerPresentationalPatternComponent } from './container-presentational-pattern/container-presentational-pattern.component';
 import { PokemonListComponent } from './pokemon-list/pokemon-list.component';
 import { SinglePatternComponent } from './single-pattern/single-pattern.component';
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: 'container-presentational',
     component: ContainerPresentationalPatternComponent,
+  },
+  {
+    path: 'tax-form',
+    component: TaxFormComponent,
   },
   {
     path: '',

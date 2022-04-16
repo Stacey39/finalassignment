@@ -1,0 +1,8 @@
+<app-add-item
+  (onAddNewItem)="taxFormService.addItem($event)"></app-add-item>
+<app-items></app-items>
+<app-total></app-total>
+
+<div class="bg-success text-light">
+  ng test --include src/app/shared/services/tax-form.service.spec.ts
+</div>
